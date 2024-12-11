@@ -9,6 +9,8 @@ This project is a simple performance comparison between **Rust with Axum**, **Ja
 - `/get-item-cache/{id}` - A GET request that retrieves an item from the db and caches it for the next request
 - `/get-item-cache-list` - A GET request that retrieves all items from the db and caches them for the next request
 
+## Running the project
+
 To run the project, you need to have **Docker and Docker Compose installed**. Then, you can run the following command:
 
 `docker-compose up`
@@ -20,3 +22,9 @@ If you have any problem doing changes in the code, you can rebuild the images wi
 `docker-compose down --remove-orphans`
 
 `docker-compose down --volumes --rmi all`
+
+## Source Projects
+
+- https://github.com/dmarcosl/rust-axum-performance
+- https://github.com/dmarcosl/java-webclient-performance
+- https://github.com/dmarcosl/java-restclient-performance
